@@ -1,0 +1,13 @@
+[package]
+name = "table"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+# [개념: 로컬 경로 의존성]
+# 로컬에 있는 restaurant 폴더를 의존성으로 추가
+restaurant = { path = "../restaurant" }
+
+# [개념: 외부 패키지]
+# crates.io에서 다운로드 받는 일반적인 의존성
+rand = "0.8.5"

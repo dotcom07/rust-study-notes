@@ -1,0 +1,9 @@
+[package]
+name = "restaurant"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+# [개념: 로컬 크레이트 의존성]
+# 레스토랑은 식재료를 backyard에서 가져옵니다.
+backyard = { path = "../backyard" }
